@@ -8,7 +8,8 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style.css">  
+        <link rel="stylesheet" href="css/discover_all_tour.css">
         <link rel="shortcut icon" type="image/png" href="img/favicon.png">
         
         <title>Discover all tours</title>
@@ -27,9 +28,9 @@
             <nav class="navigation__nav">
                 <ul class="navigation__list">
                     <li class="navigation__item"><a href="index.php" class="navigation__link"><span>01</span>About Natours</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Your benefits</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Popular tours</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Stories</a></li>
+                    <li class="navigation__item"><a href="benefits.php" class="navigation__link"><span>02</span>Your benefits</a></li>
+                    <li class="navigation__item"><a href="discover_all_tour.php" class="navigation__link"><span>03</span>Popular tours</a></li>
+                    <li class="navigation__item"><a href="story.php" class="navigation__link"><span>04</span>Stories</a></li>
                     <li class="navigation__item"><a href="booking.php" class="navigation__link"><span>05</span>Book now</a></li>
                     </ul>
             </nav>
@@ -132,6 +133,102 @@
                                     $conn->close();
                 ?>    
             </div>
+
+
+            <!-- featured section -->
+            <section id = "featured" class = "featured">
+                <div class = "container-featured">
+                    <div class = "title-wrap">
+                        <span class = "sm-title">know about some places before your travel</span>
+                        <div class="u-center-text u-margin-bottom-big">
+                            <h2 class="heading-secondary">
+                                featured places
+                            </h2>
+                        </div>
+                    </div>
+    
+                    <div class = "featured-row">
+                        <div class = "featured-item shadow">
+                            <img src = "img/featured_item-1.jpg" class = "img-featured" alt = "featured place">
+                            <div class = "featured-item-content">
+                                <span>
+                                    <i class = "fas fa-map-marker-alt"></i>
+                                    Reo De Janeiro, Brazil
+                                </span>
+                                <div>
+                                    <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class = "featured-item shadow">
+                            <img src = "img/featured_item-2.jpg" class = "img-featured" alt = "featured place">
+                            <div class = "featured-item-content">
+                                <span>
+                                    <i class = "fas fa-map-marker-alt"></i>
+                                    North Bondi, Australia
+                                </span>
+                                <div>
+                                    <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class = "featured-item shadow">
+                            <img src = "img/featured_item-3.jpg" class = "img-featured" alt = "featured place">
+                            <div class = "featured-item-content">
+                                <span>
+                                    <i class = "fas fa-map-marker-alt"></i>
+                                    Berlin, Germany
+                                </span>
+                                <div>
+                                    <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class = "featured-item shadow">
+                            <img src = "img/featured_item-4.jpg" class = "img-featured" alt = "featured place">
+                            <div class = "featured-item-content">
+                                <span>
+                                    <i class = "fas fa-map-marker-alt"></i>
+                                    Khwaeng wat arun, thailand
+                                </span>
+                                <div>
+                                    <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class = "featured-item shadow">
+                            <img src = "img/featured_item-5.jpg" class = "img-featured" alt = "featured place">
+                            <div class = "featured-item-content">
+                                <span>
+                                    <i class = "fas fa-map-marker-alt"></i>
+                                    Rome, Italy
+                                </span>
+                                <div>
+                                    <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class = "featured-item shadow">
+                            <img src = "img/featured_item-6.jpg" class = "img-featured" alt = "featured place">
+                            <div class = "featured-item-content">
+                                <span>
+                                    <i class = "fas fa-map-marker-alt"></i>
+                                    fuvahmulah, maldives
+                                </span>
+                                <div>
+                                    <p class = "text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta sed dignissimos libero soluta illum, harum amet excepturi sit?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end of featured section -->
 
             <section class="section-book">
                 <div class="row">

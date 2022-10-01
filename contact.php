@@ -26,7 +26,7 @@
                     <li class="navigation__item"><a href="index.php" class="navigation__link"><span>01</span>About Natours</a></li>
                     <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Your benefits</a></li>
                     <li class="navigation__item"><a href="discover_all_tour.php" class="navigation__link"><span>03</span>Popular tours</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Stories</a></li>
+                    <li class="navigation__item"><a href="story.php" class="navigation__link"><span>04</span>Stories</a></li>
                     <li class="navigation__item"><a href="discover_all_tour.php" class="navigation__link"><span>05</span>Book now</a></li>
                     </ul>
             </nav>

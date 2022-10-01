@@ -25,9 +25,9 @@
             <nav class="navigation__nav">
                 <ul class="navigation__list">
                     <li class="navigation__item"><a href="contact.php" class="navigation__link"><span>01</span>About Natours</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Your benefits</a></li>
+                    <li class="navigation__item"><a href="benefits.php" class="navigation__link"><span>02</span>Your benefits</a></li>
                     <li class="navigation__item"><a href="discover_all_tour.php" class="navigation__link"><span>03</span>Popular tours</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Stories</a></li>
+                    <li class="navigation__item"><a href="story.php" class="navigation__link"><span>04</span>Stories</a></li>
                     <li class="navigation__item"><a href="discover_all_tour.php" class="navigation__link"><span>05</span>Book now</a></li>
                     </ul>
             </nav>
@@ -151,7 +151,7 @@
                                         $username = "root";
                                         $password = "";
                                         $database = "dacs1";
-                                        // cont dât
+                                        // cont data
                                         $conn = new mysqli($servername, $username, $password, $database);
                                         // query
                                         $sql = "SELECT * FROM discover_tour";
